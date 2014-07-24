@@ -1,0 +1,16 @@
+{
+    "contents" : "presentation.Rproj\n========================================================\nauthor: Anupama\ndate: 24/7/2014\n\nFirst Slide\n========================================================\n\nFor more details on authoring R presentations click the\n**Help** button on the toolbar.\n\n- Bullet 1\n- Bullet 2\n- Bullet 3\n\nsecond slide\n========================================================\nthis is my second slide\n\nSlide With Code\n========================================================\n\n```{r}\nsummary(cars)\n```\n\nSlide With Plot\n========================================================\n\n```{r, echo=TRUE}\nplot(cars)\n```\n",
+    "created" : 1406188462421.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2668163583",
+    "id" : "9D246459",
+    "lastKnownWriteTime" : 1406188792,
+    "path" : "C:/Users/Anupama/Desktop/test-repo/presentation/presentation.Rproj.Rpres",
+    "project_path" : "presentation.Rproj.Rpres",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_presentation"
+}
