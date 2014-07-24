@@ -1,0 +1,16 @@
+{
+    "contents" : "library(shiny) \nshinyUI(\n  pageWithSidebar(\n    # Application title\n    headerPanel(\"Body Mass Index (BMI) Calculator\"),\n    \n    sidebarPanel(\n      numericInput('weight', 'Insert your weight in kgs', 70) ,\n      numericInput('height', 'Insert your height in mtrs', 1.70, min = 0.2, max = 3, step = 0.01),\n      submitButton('Submit')\n    ), \n    mainPanel(\n      p('The Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.'),\n      p('Regarding the BMI measure, the World Health Organization (WHO) proposes the following classification:'),\n      tags$div(\n        tags$ul(\n          tags$li('BMI <18.5       : Underweight'),\n          tags$li('BMI [18.5-24.9] : Normal weight'),\n          tags$li('BMI [25-29.9]   : Overweight'),\n          tags$li('BMI >=30        : Obesity')\n        )\n      ),\n      \n      h4('Taking into account the values entered by you:'), \n      p('weight:'), verbatimTextOutput(\"inputweightvalue\"),\n      p('height:'), verbatimTextOutput(\"inputheightvalue\"),\n      h4('Your BMI is:'),\n      verbatimTextOutput(\"estimating\"),\n      p('It means that you are:'),strong(verbatimTextOutput(\"diagnostic\"))\n      \n      \n    )\n    \n  )   \n)",
+    "created" : 1406192533962.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1276007437",
+    "id" : "16E59DF2",
+    "lastKnownWriteTime" : 1406192658,
+    "path" : "C:/Users/Anupama/Desktop/test-repo/my_app/ui.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

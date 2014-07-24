@@ -1,0 +1,16 @@
+{
+    "contents" : "<p>\n<markdown>\n\n#Markdown Live Editor#\ntest_R_presentation\n\n==============================================\n\nauthor: Anupama\n\ndate: 20/7/2014\n\n\nFirst Slide\n\n==============================================\n\n\nFor more details on authoring R presentations click the\n**Help** button on the toolbar.\n\n\n - Bullet 1\n \n- Bullet 2\n \n- Bullet 3\n\n  \nSecond Slide\n\n==============================================\n\n \nmy second slide\nSlide With Code\n\n========================================================\n\n\n```{r}\nsummary(cars)\n```\nSlide With Plot\n\n========================================================\n\n\n```{r, echo=FALSE}\nplot(cars)\n```\n</markdown></p>",
+    "created" : 1406191635542.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1778048086",
+    "id" : "EF572B54",
+    "lastKnownWriteTime" : 1406191625,
+    "path" : "C:/Users/Anupama/Desktop/test-repo/presentation.md",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "markdown"
+}

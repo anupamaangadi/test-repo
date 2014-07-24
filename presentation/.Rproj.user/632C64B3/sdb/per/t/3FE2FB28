@@ -1,0 +1,16 @@
+{
+    "contents" : "library(shiny) \n\nBMI<-function(weight,height) {weight/(height^2)}\n\ndiagnostic_f<-function(weight,height){\n  BMI_value<-weight/(height^2)\n  ifelse(BMI_value<18.5,\"underweight\",ifelse(BMI_value<25,\"normal weight\",ifelse(BMI_value<30,\"overweight\",\"obesity\")))\n}\n\nshinyServer(\n  function(input, output) {\n    \n    output$inputweightvalue <- renderPrint({input$weight})\n    output$inputheightvalue <- renderPrint({input$height})\n    output$estimation <- renderPrint({BMI(input$weight,input$height)})\n    output$diagnostic <- renderPrint({diagnostic_f(input$weight,input$height)})\n  } \n)",
+    "created" : 1406192660404.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1511212039",
+    "id" : "3FE2FB28",
+    "lastKnownWriteTime" : 1406192693,
+    "path" : "C:/Users/Anupama/Desktop/test-repo/my_app/server.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
